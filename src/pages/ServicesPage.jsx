@@ -9,7 +9,7 @@ const Services = () => {
         
         <div>
           <img
-            src="src/assets/lifestyle.jpg"
+            src="/images/lifestyle.jpg"
             alt="services"
             className="rounded-xl sm:rounded-2xl shadow-lg w-full h-60 sm:h-80 md:h-full object-cover"
           />

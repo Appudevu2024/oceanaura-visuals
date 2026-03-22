@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+import { cardData } from "../components/Card";
+
 
 const GalleryPage = () => {
-  const images = Object.values(
-    import.meta.glob("/src/assets/*.jpg|*.jfif", { eager: true })
-  ).map((img) => img.default);
 
-  const [selectedImage, setSelectedImage] = useState(null);
+    const [selectedImage, setSelectedImage] = useState(null);
+   const images = cardData.map((item) => item.src);
+
 
   return (
     <div className="bg-gray-50 dark:bg-gray-900 min-h-screen px-3 sm:px-4 md:px-6 py-8 sm:py-10">

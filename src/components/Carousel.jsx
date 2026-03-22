@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import Carousel1 from "../assets/carousel1.jpg";
-import Carousel2 from "../assets/carousel2.jpg";
-import Carousel3 from "../assets/carousel3.jpg";
-import Carousel4 from "../assets/carousel4.jpg";
-import Carousel5 from "../assets/carousel5.jpg";
-import logo from "../assets/logo.png";
+import Carousel1 from "/images/carousel1.jpg";
+import Carousel2 from "/images/carousel2.jpg";
+import Carousel3 from "/images/carousel3.jpg";
+import Carousel4 from "/images/carousel4.jpg";
+import Carousel5 from "/images/carousel5.jpg";
+import logo from "/images/logo.png";
 
 const slides = [
   {
