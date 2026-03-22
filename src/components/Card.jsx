@@ -85,7 +85,7 @@ const Card = () => {
                 rel="noopener noreferrer"
                 className="bg-white border hover:bg-green-600 text-black dark:bg-black dark:text-white px-6 py-2 rounded-full transition"
               >
-                Book
+                Reach Us
               </a>
             </div>
           </div>
