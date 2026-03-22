@@ -70,7 +70,7 @@ const Card = () => {
           <img
             src={item.src}
             alt={item.title}
-            className="w-full h-64 object-cover"
+            className="w-full aspect-[3/4] object-cover"
           />
 
           <div className="p-4 flex flex-col flex-grow justify-between">

@@ -31,14 +31,14 @@ const GalleryPage = () => {
             className="relative overflow-hidden rounded-lg sm:rounded-xl cursor-pointer group"
             onClick={() => setSelectedImage(img)}
           >
- <div className="relative w-full aspect-[3/4] overflow-hidden rounded-lg group">
-  <img
-    src={img}
-    alt={`gallery-${index}`}
-    className="absolute inset-0 w-full h-full object-cover 
+            <div className="relative w-full aspect-[3/4] overflow-hidden rounded-lg group">
+              <img
+                src={img}
+                alt={`gallery-${index}`}
+                className="absolute inset-0 w-full h-full object-cover 
     group-hover:scale-110 transition duration-500"
-  />
-</div>
+              />
+            </div>
             <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-sm sm:text-base transition">
               View
             </div>
