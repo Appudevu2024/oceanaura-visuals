@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImage from "../images/about.jfif";
+import AboutImage from "/images/about.jfif";
 import Card from "../components/Card";
 import { Link } from "react-router-dom";
 
